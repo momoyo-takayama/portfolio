@@ -404,7 +404,7 @@ img{
 	
 	}
 	
-.sample_videobox video {
+.upper_iframe {
 	height: 405px;
 	width: 720px;
 	margin-right: auto;
@@ -566,7 +566,7 @@ img{
 	margin-bottom: 30px;
 }
 
-.sample_videobox2 video {
+.upper_iframe {
 	height: 180px;
 	width: 320px;
 	background-color: #666;
