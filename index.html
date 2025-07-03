@@ -1,0 +1,324 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="format-detection" content="telephone=no">
+
+<title>Portfolio_Natural_MomoyoTakayama</title>
+<link rel="stylesheet" type="text/css" href="slick-theme.css">
+<link rel="stylesheet" type="text/css" href="slick.css">
+<link href="index.css" rel="stylesheet" type="text/css">
+<link href="vedit.css" rel="stylesheet" type="text/css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p&display=swap" rel="stylesheet">
+<script type="text/javascript" src="js/jquery-3.6.3.min.js"></script>
+<script type="text/javascript" src="js/slick.min.js"></script>
+
+<script type="text/javascript">
+$(function() {
+	$('.slick-box').slick({
+		infinite: true,
+		variableWidth: true,
+		arrow: true
+	});
+	
+	$('.header_slider').slick({
+    autoplay: true,
+    autoplaySpeed: 3000,
+    speed: 800, 
+    dots: false,
+    arrows: false,
+    infinite: true,
+});
+
+});
+
+
+$(function(){
+   $(window).on('load scroll', function() {
+      var winScroll = $(window).scrollTop();
+      var winHeight = $(window).height();
+      var scrollPos = winScroll + (winHeight * 0.8);
+
+      $(".aboutme_img").each(function() {
+         if($(this).offset().top < scrollPos) {
+            $(this).css({opacity: 1, transform: 'translate(0, 0)'});
+         }
+      });
+   });
+});
+
+</script>
+
+</head>
+
+<body>
+
+<!--ヘッダー -->
+<div class="header">
+
+	 <!--<div class="header_menu"></div> -->
+    
+    <!--トップイメージ　スライダー自動再生 -->
+    
+    <div class="header_slider">
+      <img src="images/index/index3.jpg" alt="" class="topimg">
+      <img src="images/index/index2.jpg" alt="" class="topimg">
+      <img src="images/index2/topimg.jpg" alt="" class="topimg">
+      <img src="images/index/index.jpg" alt="" class="topimg">
+    </div>
+
+</div>
+
+<!--自己紹介？(〃ﾟдﾟ；A -->
+<div class="aboutme">
+
+
+
+	<div class="aboutme_text">
+    <img src="images/index2/aboutme_title.png" alt="aboutme" class="aboutme_img">
+    </div>
+    
+<!--文章 -->
+
+  <div class="aboutme_text">
+  
+  <div class="aboutme_leftbox">
+  
+      <p>Hello, I am momotaka.<br>
+      I am a freelance English-Japanese translator and multimedia content creator.</p>
+        <br>
+        <p>I also offer general web design services such as HTML/CSS coding, advertisement banner production, and video editing.<br>
+        By translating and editing video simultaneously, not only save time and budget, I achieve results that meet your intentions through consistent work.</p>
+        <br>
+        <p>Please let me know how I can assist you further!</p>
+    
+    </div>
+       
+  <div class="aboutme_rightbox">
+    <p>初めまして、momotakaです。<br>
+      <br>
+    </p>
+    <p>フリーランスで英日翻訳及びHTML/CSSコーディングなどのウェブデザイン全般、広告バナー制作、動画編集なども行っています。</p>
+    <p><br>
+      翻訳と映像編集を同時に行うことで、時間や予算の節約だけでなく、一貫した作業でお客様の意図に沿った作業の実現に貢献いたします。</p>
+    <p><br>
+      お気軽にご相談ください。<br>
+    </p>
+  </div>
+      
+  </div>
+
+<!--文章ここまで-->
+
+</div>
+
+<div class="skills">
+  <img src="images/index2/skill_bg1.png" class="img_setting">
+    
+
+	<div class="skills_text">
+    <img src="images/index2/skills_title.png" class="skills_img">
+    </div>
+    
+
+<!--文章 -->
+
+  <div class="skills_text">
+  
+  <div class="skills_leftbox">
+  
+              <ul>
+            <li>The EIKEN Test in Practical English Proficiency Grade Pre-1</li>
+            <li>IELTS 6.5</li>
+          </ul>
+          <div class="border_dot"></div>
+          <ul>
+            <li>Translation &amp; Interpretation - more than 3 years<br>
+              (Cat : SmartCat, TMS)
+            </li>
+            <li>Basic html/css - more than 10 years</li>
+            <li>Photoshop &amp; Illustrator - more than 10 years</li>
+            <li>CLIP STUDIO - more than 3 years</li>
+            <li>Live2d, Premiere Pro- 1 year</li>
+        <li>General Office operation</li></ul>
+        Please contact me for further details of my experiences.
+    
+    </div>
+       
+  <div class="skills_rightbox">
+    <p>海外の高校・専門学校を卒業後帰国。<br>
+      貿易事務として通訳・翻訳などの英文事務が2年、英日翻訳は1年です。<br>
+      <br>
+      ■ IELTS 6.5</p>
+    <p>■ 英検準一級</p>
+    <p>&nbsp; </p>
+    <p>20年ほど前からweb制作に纏わる作業全般を経験してきました。HTML/CSSのコーディングから、基礎的なJS・PHPの改造・設置、フォトショップ・イラストレーターなどによる画像・イラスト編集作業を行います。</p>
+    <p>また動画編集やLive2dモデリング設定に纏わるお仕事も承ります。</p>
+  </div>
+      
+  </div>
+
+<!--文章ここまで-->
+
+  <img src="images/index2/skill_bg2.png" class="img_setting">
+
+</div>
+
+        
+<div class="careerbreak">
+
+	<div class="work_title">
+    <img src="images/index2/careerbreak_title.png" class="aboutme_img">
+    </div>    
+    
+    <div class="career_box">
+    <div class="text_box">
+    I have an autistic son with intellectual disabilities, and I had a career break since I needed to focus on him. He has already finished school and now goes to a welfare workshop. He seems to be working well and looking after himself, which helps me concentrate on my work. Being his mom is not easy, but awards are beautiful. <br> 
+      I appreciate every single person who understands and supports us.</div>
+    </div>
+    
+</div>
+
+<!--ワークス -->
+
+<div class="works">
+
+<div class="work_title">
+<img src="images/index2/works.png" class="skills_img">
+   
+  </div>
+
+  <div class="text_box2">
+   Illustration sample
+  </div>
+   
+  <div class="text_box3">イラストのサンプル集です。シンプル・カジュアルなテイストのものから、濃厚なイラストまで対応いたします。※3D制作はご参考までに・・・</div>
+   
+<!--スライダー -->
+  <ul class="slick-box">
+    <li><img src="images/works/banner/kimono_sample_s.jpg" alt="works"></li>
+    <li><img src="images/works/banner/mothersday_sample_s.jpg" alt="works"></li>
+    <li><img src="images/works/dental.jpg" alt="works"></li>
+    <li><img src="images/works/bright_emblem.jpg" alt="works"></li>
+    <li><img src="images/works/smile_emblem.jpg" alt="works"></li>
+    <li><img src="images/works/fuckneko.jpg" alt="works"></li>
+    <li><img src="images/works/mama.jpg" alt="works"></li>
+    <li><img src="images/works/mama4.jpg" alt="works"></li>
+    <li><img src="images/works/sweetest.jpg" alt="works"></li>
+    <li><img src="images/works/happygolucky.jpg" alt="works"></li>
+    <li><img src="images/works/magic.jpg" alt="works"></li>
+    <li><img src="images/works/sightseen.jpg" alt="works"></li>
+    <li><img src="images/works/trial.jpg" alt="works"></li>
+    <li><img src="images/works/takoyaki.jpg" alt="works"></li>
+    <li><img src="images/works/cafe.jpg" alt="works"></li>
+    <li><img src="images/works/kikichallenge3.jpg" alt="works"></li>
+    <li><img src="images/works/kikichallenge2.jpg" alt="works"></li>    
+  </ul>
+
+</div>
+
+
+<!--live2d -->
+
+<div class="text_box2">Live2d modelling</div>
+<div class="text_box3">I model 2D illustrations and create original animated characters and Vtuber characters. You can also check the motion operation on the Live2d Nizima homepage. Click &quot;Show Preview&quot;, a light blue button on the image, on the linked page to check the mouse tracking and the movement of each part. Enjoy!<br>
+  <div class="border_dot"></div>
+  オリジナルアニメーションキャラクター、Vtuber用キャラクターの制作が可能です。下記のリンク先、Live2dの公式マーケットNijimaにて、私がモデリングしたキャラクターの動作確認が行えます。リンク先の画像の上にある「プレビューを表示」ボタンを押すと、マウス追従や各パーツの動作をご覧いただけます。</div>
+
+<div class="live2d_wrapper">
+
+<div class="live2d_box">
+<p style="font-weight: bold; margin: 10px;">Petit kitty girl</p>
+    <div class="live2d_video"><img src="images/works/0326forl2.jpg"></div>
+<p  style="font-weight: bold; margin: 10px;">&gt;&gt; <a href="https://nizima.com/Item/DetailItem/71973" target="_blank">Go to Nizima to check</a></p>
+</div>
+
+<div class="live2d_box">
+<p style="font-weight: bold; margin: 10px;">A modern Japanese kimono girl</p>
+    <div class="live2d_video">   
+    <video src="video/randam_prim.mp4" controls poster="video/girl.png" class="live2d_video">
+    </video>
+    </div>
+<p  style="font-weight: bold; margin: 10px;">&gt;&gt; <a href="https://nizima.com/Item/DetailItem/70929" target="_blank">Go to Nizima to check</a></p>
+</div>
+<div class="live2d_box">
+  <p style="font-weight: bold; margin: 10px;">Kerog</p>
+  <div class="live2d_video"> <img src="images/works/kerog.jpg">
+  </div>
+  <p  style="font-weight: bold; margin: 10px;">&gt;&gt; <a href="https://nizima.com/Item/DetailItem/70896" target="_blank">Go to Nizima to check</a></p>
+</div>
+<div class="live2d_box">
+  <p style="font-weight: bold; margin: 10px;">A secret agent</p>
+  <div class="live2d_video">
+    <img src="images/works/agent.jpg">
+  </div>
+  <p  style="font-weight: bold; margin: 10px;">&gt;&gt; <a href="https://nizima.com/Item/DetailItem/70926" target="_blank">Go to Nizima to check</a></p>
+</div>
+</div>
+
+
+<!--動画関連 -->
+<div class="samplevideo">
+
+
+<div class="text_box2">
+    Video samples
+</div>
+<div class="text_box3">制作に携わった動画、アニメーションなどのサンプルです。<br>
+</div>
+  <div class="sample_videobox">
+        
+    <video src="video/inaka_asobi.mp4" controls poster="video/inaka_asobi.jpg">
+    </video>
+            
+    </div>
+    <div class="text_box3">日本語版アニメーションを英語版へ変更する動画編集作業を行いました。<br>
+      フキダシ素材のイラスト制作と英語音声を合わせて編集、BGMのリミックスなども行います。<br>
+    </div>
+
+    <div class="sample_videobox2">
+        
+    <video src="video/sample_366.mp4" controls poster="video/sample_366.jpg">
+    </video>
+ 
+     <video src="video/sample_372.mp4" controls poster="video/sample_372.jpg">
+    </video>
+               
+    </div>
+    
+</div>
+
+<!--お問合せ -->
+<div class="contact">
+
+<div class="work_title">
+<img src="images/index2/contact_title.png" class="skills_img">
+</div>
+<div class="contact_box">
+  <form action="mail.php" method="post">
+    <div class="contact_box">
+      <div class="name_box"><span class="color_red">*</span>Name</div>
+      <input name="Name" type="text" class="name">
+      <div class="name_box"><span class="color_red">*</span>E-mail</div>
+      <input name="Email" type="text" class="name" id="Email">
+      <div class="name_box">Comment</div>
+      <textarea name="Comment"></textarea>
+      <input type="submit" class="button_nb" value="Submit">
+      
+      <input type="reset" class="button_reset" value="Reset">
+    </div>
+  </form>
+</div>
+</div>
+
+<div class="footer">
+
+<div class="footer_menu"></div>
+
+</div>
+
+</body>
+</html>

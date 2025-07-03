@@ -1,0 +1,564 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body, div, span, p {
+	font-family: 'M PLUS 1p', sans-serif;
+	line-height: 150%;
+	margin: 0px;
+	padding: 0px;
+	font-size: 1em;
+	overflow-x: hidden;
+
+}
+
+
+img{
+	vertical-align:top;
+	pointer-events: none;
+}
+
+.header {
+	height: auto;
+	width: 100%;
+	overflow: hidden;
+	padding: 0px;
+	background-image: url(images/index2/header_bg.png);
+	margin: 0px;
+}
+
+.header .header_menu {
+	background-image: url(images/naturalbeauty/img/bgcolor.jpg);
+	height: 60px;
+	width: 100%;
+}
+
+.header .header_image {
+	background-image: url(images/naturalbeauty/img/bg_skill.jpg);
+	height: auto;
+	width: 100%;
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+}
+.header .header_image img {
+	width: 100%;
+	max-width: 1080px;
+	height: auto;
+	padding: 0px;
+	margin: 0px;
+}
+
+.header_slider{
+	width: 100%;
+	max-width: 1080px;
+	height: auto;
+	overflow: hidden;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+
+.header_slider{
+	animation: fadein-top 3s ease-out forwards;
+	
+	}
+
+
+.aboutme {
+	height: auto;
+	width: 100%;
+	overflow: hidden;
+	margin-bottom: 30px;
+	background-image: url(images/index2/bg_aboutme.png);
+	background-position: center top;
+	background-repeat: no-repeat;
+	padding-top: 100px;
+}
+
+.aboutme_img {
+	margin: 0px;
+	padding: 0px;
+	height: auto;
+	width: 100%;
+	max-width: 1080px;
+	height: auto;
+	
+	opacity: 0;
+	transform: translate(-100px, 0);
+	transition: all 1s ease-out;
+}
+
+.aboutme_text {
+	padding: 0px;
+	height: auto;
+	width: 100%;
+	max-width: 1080px;
+	height: auto;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	display: table;
+	background-image: url(images/index2/aboutme_bg.png);
+	background-size: 100% auto;
+	
+}
+
+.aboutme_leftbox {
+	width: 62%;
+	display: table-cell;
+	transform: rotate(0.05deg);
+	border-right-width: 2px;
+	border-right-style: solid;
+	border-right-color: #666666;
+	float: left;
+	padding: 15px;
+	margin-bottom: 15px;
+	}
+
+.aboutme_rightbox {
+	width: 30%;
+	transform: rotate(0.05deg);
+	font-size: 0.9em;
+	display: table-cell;
+	float: left;
+	padding: 15px;
+	margin-bottom: 15px;
+	}
+
+
+.skills_text {
+	padding: 0px;
+	height: auto;
+	width: 100%;
+	max-width: 1080px;
+	height: auto;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	display: table;
+	background-image: url(images/index2/skill_bg.png);
+	
+}
+
+.skills_leftbox {
+	width: 62%;
+	display: table-cell;
+	transform: rotate(0.05deg);
+	border-right-width: 2px;
+	border-right-style: solid;
+	border-right-color: #666666;
+	float: left;
+	padding: 15px;
+	}
+
+.skills_rightbox {
+	width: 30%;
+	transform: rotate(0.05deg);
+	font-size: 0.9em;
+	display: table-cell;
+	float: left;
+	padding: 15px;
+	}
+	
+.text_box {
+	padding: 0px;
+	width: 92%;
+	margin-top: 30px;
+	margin-right: auto;
+	margin-bottom: 60px;
+	margin-left: auto;
+	text-align: left;
+	transform: rotate(0.05deg);
+}
+
+.text_box2 {
+	width: 94%;
+	max-width: 1060px;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-bottom: 10px;
+	margin-left: auto;
+	text-align: left;
+	transform: rotate(0.05deg);
+	padding: 0px;
+	font-size: 1.2em;
+	color: #333;
+	font-weight: bold;
+}
+
+.text_box3 {
+	width: 94%;
+	max-width: 1060px;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-bottom: 10px;
+	margin-left: auto;
+	text-align: left;
+	transform: rotate(0.05deg);
+	padding: 0px;
+	font-size: 1em;
+	color: #000;
+}
+	
+.skills {
+	height: auto;
+	width: 100%;
+	overflow: hidden;
+	background-image: url(images/index2/skill_bg.png);
+}
+
+.skills_img {
+	padding: 0px;
+	height: auto;
+	width: 100%;
+	max-width: 1080px;
+	height: auto;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 30px;
+	margin-left: 0px;
+}
+
+.img_setting {
+	margin: 0px;
+	padding: 0px;
+	height: auto;
+	width: 100%;
+	height: auto;
+}
+
+.skills_box {
+	background-image: url(images/naturalbeauty/img/bgcolor-04.jpg);
+	width: 100%;
+	text-align: center;
+}
+
+.skills_textbox {
+	padding: 0px;
+	height: auto;
+	width: 100%;
+	max-width: 1080px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+
+}
+
+
+.border_dot {
+	height: 1px;
+	width: 80%;
+	border-top-width: 5px;
+	border-top-style: dotted;
+	border-top-color: #a500ff;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.careerbreak {
+	height: auto;
+	width: 100%;
+	overflow: hidden;
+	text-align: center;
+	margin-top: 0px;
+	margin-bottom: 60px;
+}
+
+.career_box {
+	padding: 0px;
+	height: auto;
+	width: 100%;
+	max-width: 1080px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+
+}
+
+.works {
+	height: auto;
+	width: 100%;
+	overflow: hidden;
+	background-image: url(images/index2/sample_bg.png);
+	background-color: #ebebeb;
+	margin-bottom: 80px;
+}
+
+
+.slick-box {
+	width: 85%;
+	margin-top: 20px;
+	margin-right: auto;
+	margin-bottom: 50px;
+	margin-left: auto;
+	border-radius: 10px;
+	padding-top: 50px;
+	padding-right: 0px;
+	padding-bottom: 50px;
+	padding-left: 0px;
+	background-color: #FFF;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+.slick-box li {
+	margin: 10px;
+}
+
+.work_title {
+	width: 95%;
+	padding: 0px;
+	height: auto;
+	max-width: 1080px;
+	margin-top: 50px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.live2d_wrapper {
+	display: table;
+	width: 95%;
+	max-width: 1020px;
+	margin-right: auto;
+	margin-left: auto;
+	overflow: hidden;
+	margin-top: 30px;
+	margin-bottom: 80px;
+}
+
+
+.live2d_box {
+	width: 300px;
+	height: auto;
+	margin-top: 0px;
+	margin-bottom: 15px;
+	margin-right: 15px;
+	margin-left: 15px;
+	transform: rotate(0.05deg);
+	border-radius: 10px;
+	overflow: hidden;
+	font-size: 0.9em;
+	text-align: center;
+	display: table-cell;
+	float: left;
+	background-image: url(images/naturalbeauty/img/bgcolor-06.jpg);
+	border: 1px solid #CCC;
+	
+	}
+
+.live2d_video {
+	height: 300px;
+	width: 300px;
+	overflow: hidden;
+	
+	}
+
+
+.samplevideo {
+	height: auto;
+	width: 100%;
+	overflow: hidden;
+	background-image: url(images/naturalbeauty/img/bg_video.jpg);
+	background-color: #dfdfdf;
+	margin-bottom: 80px;
+}
+
+.sample_videobox {
+	width: 90%;
+	margin-top: 30px;
+	margin-right: auto;
+	margin-bottom: 30px;
+	margin-left: auto;
+	text-align: center;
+	
+	}
+
+.sample_videobox2 {
+	width: 720px;
+	margin-top: 30px;
+	margin-right: auto;
+	margin-bottom: 30px;
+	margin-left: auto;
+	text-align: center;
+	
+	}
+	
+.sample_videobox video {
+	height: 405px;
+	width: 720px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #666;
+	padding: 20px;
+}
+
+.sample_videobox2 video {
+	height: 180px;
+	width: 320px;
+	background-color: #666;
+	padding: 10px;
+	float: left;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+.contact {
+	height: auto;
+	width: 100%;
+	overflow: hidden;
+}
+
+.contact_box {
+	padding: 0px;
+	height: auto;
+	width: 95%;
+	max-width: 1080px;
+	margin-top: 50px;
+	margin-right: auto;
+	margin-bottom: 50px;
+	margin-left: auto;
+	overflow: hidden;
+}
+
+.contact_box form {
+	transform: rotate(0.05deg);
+	overflow: hidden;
+	}
+
+
+.footer {
+	height: auto;
+	width: 100%;
+	overflow: hidden;
+}
+
+.footer_menu {
+	height: 60px;
+	width: 100%;
+	background-color: #666;
+}
+
+
+
+
+@media screen and (max-width:920px) {
+	
+
+.aboutme {
+	
+	background-size:90% auto;
+	background-position: right top;
+}
+
+
+.aboutme_leftbox {
+	width: 100%;
+	transform: rotate(0.05deg);
+	padding: 15px;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #666666;
+	}
+
+.aboutme_rightbox {
+	width: 90%;
+	transform: rotate(0.05deg);
+	font-size: 0.9em;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 15px;
+	}
+
+
+.skills_leftbox {
+	width: 100%;
+	transform: rotate(0.05deg);
+	padding: 15px;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #666666;
+	}
+
+.skills_rightbox {
+	width: 90%;
+	transform: rotate(0.05deg);
+	font-size: 0.9em;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 15px;
+	}
+	
+	
+}
+
+
+@media screen and (max-width:600px) {
+
+
+.live2d_wrapper {
+	width: 340px;
+	margin-right: auto;
+	margin-left: auto;
+	overflow: hidden;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+	
+.live2d_box {
+	width: 300px;
+	height: auto;
+	margin-top: 0px;
+	margin-bottom: 15px;
+	margin-right: 15px;
+	margin-left: 15px;
+	transform: rotate(0.05deg);
+	border-radius: 10px;
+	overflow: hidden;
+	font-size: 0.9em;
+	text-align: center;
+	background-image: url(images/naturalbeauty/img/bgcolor-06.jpg);
+	border: 1px solid #CCC;
+	
+	}
+	
+}
+
+
+@media screen and (max-width:767px) {
+	
+
+.sample_videobox video {
+	height: 180px;
+	width: 320px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #666;
+	padding: 10px;
+}
+
+.sample_videobox2 {
+	width: 340px;
+	margin-right: auto;
+	margin-left: auto;
+	overflow: hidden;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.sample_videobox2 video {
+	height: 180px;
+	width: 320px;
+	background-color: #666;
+	padding: 10px;
+	clear: both;
+	margin: 10px;
+}
+	
+}
