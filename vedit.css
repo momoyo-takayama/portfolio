@@ -92,7 +92,7 @@ img{
 }
 
 .aboutme_text {
-	padding: 0px;
+	padding: 0 0 50px 0;
 	height: auto;
 	width: 100%;
 	max-width: 1080px;
