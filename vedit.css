@@ -102,6 +102,20 @@ img{
 	margin-bottom: 0px;
 	margin-left: auto;
 	display: table;
+	
+}
+
+.aboutme_text2 {
+	padding: 0px;
+	height: auto;
+	width: 100%;
+	max-width: 1080px;
+	height: auto;
+	margin-top: 50px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	display: table;
 	background-image: url(images/index2/aboutme_bg.png);
 	background-size: 100% auto;
 	
