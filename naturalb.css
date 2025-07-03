@@ -102,7 +102,7 @@ img{
 }
 
 .aboutme_text {
-	padding: 0px;
+	padding: 0 0 50px 0;
 	height: auto;
 	width: 100%;
 	max-width: 1080px;
@@ -110,9 +110,8 @@ img{
 	margin-top: 0px;
 	margin-right: auto;
 	margin-bottom: 0px;
-	padding-bottom: 50px;
 	margin-left: auto;
-	display: table;
+	display: block;
 	background-image: url(images/index2/aboutme_bg.png);
 	background-size: 100% auto;
 	
